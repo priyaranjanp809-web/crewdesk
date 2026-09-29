@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Attendance | CrewDesk</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/Project/CSS/style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<nav class="navbar container">
+
+<a href="index.html" class="logo">
+<span class="logo-icon">C</span>
+CrewDesk
+</a>
+
+<button class="menu-toggle" id="menuToggle">☰</button>
+
+<ul class="nav-links" id="navLinks">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="tasks.html">Tasks</a></li>
+<li><a href="attendance.html" class="active">Attendance</a></li>
+<li><a href="announcements.html">Announcements</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+<main>
+
+<section class="dashboard-page">
+
+<div class="container">
+
+<div class="dashboard-heading">
+
+<div>
+
+<span class="badge">Attendance Management</span>
+
+<h1>Attendance 🗓️</h1>
+
+<p>View your attendance and manage leave requests.</p>
+
+</div>
+
+</div>
+
+
+<div class="stats-grid">
+
+<div class="stat-card green-card">
+<div class="stat-icon">✓</div>
+<div>
+<span>Present</span>
+<strong>18</strong>
+</div>
+</div>
+
+<div class="stat-card pink-card">
+<div class="stat-icon">✕</div>
+<div>
+<span>Absent</span>
+<strong>1</strong>
+</div>
+</div>
+
+<div class="stat-card purple-card">
+<div class="stat-icon">🌴</div>
+<div>
+<span>Leave</span>
+<strong>2</strong>
+</div>
+</div>
+
+<div class="stat-card blue-card">
+<div class="stat-icon">📊</div>
+<div>
+<span>Attendance</span>
+<strong>92%</strong>
+</div>
+</div>
+
+</div>
+
+
+<div class="dashboard-grid">
+
+
+<div class="dashboard-panel">
+
+<div class="panel-heading">
+
+<h2>September 2026</h2>
+
+</div>
+
+
+<div class="calendar">
+
+<div class="calendar-days">
+<span>Mon</span>
+<span>Tue</span>
+<span>Wed</span>
+<span>Thu</span>
+<span>Fri</span>
+<span>Sat</span>
+<span>Sun</span>
+</div>
+
+
+<div class="calendar-dates">
+
+<span></span>
+<span>1</span>
+<span class="present">2</span>
+<span class="present">3</span>
+<span class="present">4</span>
+<span class="weekend">5</span>
+<span class="weekend">6</span>
+
+<span class="present">7</span>
+<span class="present">8</span>
+<span class="present">9</span>
+<span class="present">10</span>
+<span class="today">11</span>
+<span class="weekend">12</span>
+<span class="weekend">13</span>
+
+<span class="present">14</span>
+<span class="present">15</span>
+<span class="present">16</span>
+<span class="leave">17</span>
+<span class="leave">18</span>
+<span class="weekend">19</span>
+<span class="weekend">20</span>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="dashboard-panel">
+
+<div class="panel-heading">
+<h2>Apply for Leave</h2>
+</div>
+
+
+<form id="leaveForm" class="main-form">
+
+<div class="form-group">
+
+<label>Leave Type</label>
+
+<select id="leaveType">
+
+<option value="">Select Leave Type</option>
+<option>Casual Leave</option>
+<option>Sick Leave</option>
+<option>Personal Leave</option>
+</select>
+
+<small class="error"></small>
+
+</div>
+
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label>Start Date</label>
+
+<input
+    type="date"
+    id="startDate"
+    min="2026-09-01"
+    max="2035-12-31"
+>
+
+<small class="error"></small>
+
+</div>
+
+
+<div class="form-group">
+
+<label>End Date</label>
+
+<input type="date" id="endDate">
+
+<small class="error"></small>
+
+</div>
+
+</div>
+
+
+<div class="form-group">
+
+<label>Reason</label>
+
+<textarea id="leaveReason" rows="4"
+placeholder="Enter reason for leave"></textarea>
+
+<small class="error"></small>
+
+</div>
+
+
+<button class="btn btn-primary full-btn">
+Submit Request
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div>
+            <a href="index.html" class="logo footer-logo">
+                <span class="logo-icon">C</span>
+                CrewDesk
+            </a>
+
+            <p>
+                Manage your workplace. Empower your crew.
+            </p>
+        </div>
+
+        <div>
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h4>Workplace</h4>
+            <a href="tasks.html">Tasks</a>
+            <a href="attendance.html">Attendance</a>
+            <a href="announcements.html">Announcements</a>
+            <a href="profile.html">Profile</a>
+        </div>
+
+        <div>
+            <h4>Contact</h4>
+            <p>📧 support@crewdesk.com</p>
+            <p>📞 +91 98765 43210</p>
+            <p>📍 Bhubaneswar, India</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 CrewDesk. All rights reserved.</p>
+        <p>Privacy Policy · Terms & Conditions</p>
+    </div>
+
+</footer>
+
+<script src="/Project/js/script.js"></script>
+
+</body>
+</html>

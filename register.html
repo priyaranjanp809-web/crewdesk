@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Register Company | CrewDesk</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/Project/CSS/style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<nav class="navbar container">
+
+<a href="index.html" class="logo">
+<span class="logo-icon">C</span>
+CrewDesk
+</a>
+
+<button class="menu-toggle" id="menuToggle">☰</button>
+
+<ul class="nav-links" id="navLinks">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="tasks.html">Tasks</a></li>
+<li><a href="attendance.html">Attendance</a></li>
+<li><a href="announcements.html">Announcements</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<div class="nav-buttons">
+<a href="login.html" class="btn btn-outline">Login</a>
+</div>
+
+</nav>
+
+</header>
+
+
+<main>
+
+<section class="form-page">
+
+<div class="form-container">
+
+<div class="form-heading">
+
+<span class="badge">Join CrewDesk</span>
+
+<h1>Register Employee Details</h1>
+
+<p>
+Create your workspace and start managing
+your tasks efficiently.
+</p>
+
+</div>
+
+
+<form id="registrationForm" class="main-form">
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label for="adminName">Employee Name</label>
+
+<input type="text" id="adminName" placeholder="Enter employee name">
+
+<small class="error"></small>
+
+</div>
+
+<div class="form-group">
+<label for="companyEmail">Employee Email</label>
+<input type="email" id="companyEmail" placeholder="employee@example.com">
+<small class="error"></small>
+</div>
+
+</div>
+
+
+<div class="form-row">
+
+<div class="form-group">
+<label for="phone">Phone Number</label>
+<input type="tel" id="phone" placeholder="9876543210">
+<small class="error"></small>
+</div>
+
+<div class="form-group">
+
+<label for="industry">Department</label>
+
+<select id="industry">
+
+<option value="">Select Department</option>
+<option>Information Technology</option>
+<option>Finance</option>
+<option>HR</option>
+<option>Sales</option>
+<option>Marketing</option>
+<option>Operations</option>
+<option>Other</option>
+
+</select>
+
+<small class="error"></small>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label for="address">Employee Address</label>
+
+<textarea id="address" rows="3" placeholder="Enter employee address"></textarea>
+
+<small class="error"></small>
+
+</div>
+
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label for="password">Password</label>
+
+<div class="password-box">
+
+<input type="password" id="password" placeholder="Create password">
+
+<button type="button" class="show-password" data-target="password">👁</button>
+
+</div>
+
+<small class="error"></small>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="confirmPassword">Confirm Password</label>
+
+<div class="password-box">
+
+<input type="password" id="confirmPassword" placeholder="Confirm password">
+
+<button type="button" class="show-password" data-target="confirmPassword">👁</button>
+
+</div>
+
+<small class="error"></small>
+
+</div>
+
+</div>
+
+
+<label class="checkbox">
+
+<input type="checkbox" id="terms">
+
+<span>
+I agree to the Terms & Conditions and Privacy Policy.
+</span>
+
+</label>
+
+<small class="error terms-error"></small>
+
+
+<button type="submit" class="btn btn-primary btn-large full-btn">
+Register Employee
+</button>
+
+
+<p class="form-bottom">
+Already have an account?
+<a href="login.html">Login here</a>
+</p>
+
+</form>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div>
+            <a href="index.html" class="logo footer-logo">
+                <span class="logo-icon">C</span>
+                CrewDesk
+            </a>
+
+            <p>
+                Manage your workplace. Empower your crew.
+            </p>
+        </div>
+
+        <div>
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h4>Workplace</h4>
+            <a href="tasks.html">Tasks</a>
+            <a href="attendance.html">Attendance</a>
+            <a href="announcements.html">Announcements</a>
+            <a href="profile.html">Profile</a>
+        </div>
+
+        <div>
+            <h4>Contact</h4>
+            <p>📧 support@crewdesk.com</p>
+            <p>📞 +91 98765 43210</p>
+            <p>📍 Bhubaneswar, India</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 CrewDesk. All rights reserved.</p>
+        <p>Privacy Policy · Terms & Conditions</p>
+    </div>
+
+</footer>
+
+
+<script src="/Project/js/script.js"></script>
+
+</body>
+</html>

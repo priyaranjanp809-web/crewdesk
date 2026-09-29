@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tasks | CrewDesk</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/Project/CSS/style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<nav class="navbar container">
+
+<a href="index.html" class="logo">
+<span class="logo-icon">C</span>
+CrewDesk
+</a>
+
+<button class="menu-toggle" id="menuToggle">☰</button>
+
+<ul class="nav-links" id="navLinks">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="tasks.html" class="active">Tasks</a></li>
+<li><a href="attendance.html">Attendance</a></li>
+<li><a href="announcements.html">Announcements</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+<main>
+
+<section class="dashboard-page">
+
+<div class="container">
+
+<div class="dashboard-heading">
+
+<div>
+
+<span class="badge">Work Management</span>
+
+<h1>My Tasks 📋</h1>
+
+<p>Keep track of your work and deadlines.</p>
+
+</div>
+
+<button class="btn btn-primary" id="addTaskBtn">
++ Add Task
+</button>
+
+</div>
+
+
+<div class="task-filters">
+
+<button class="filter-btn active" data-filter="all">All</button>
+<button class="filter-btn" data-filter="pending">Pending</button>
+<button class="filter-btn" data-filter="progress">In Progress</button>
+<button class="filter-btn" data-filter="completed">Completed</button>
+
+</div>
+
+
+<div class="tasks-list">
+
+
+<article class="large-task" data-status="progress">
+
+<div class="task-left">
+
+<div class="task-icon">💻</div>
+
+<div>
+
+<h3>Website Development</h3>
+
+<p>
+Create responsive pages for the CrewDesk website.
+</p>
+
+<small>Assigned by: Team Lead · Due Today</small>
+
+</div>
+
+</div>
+
+<div class="task-right">
+
+<span class="priority high">High</span>
+
+<span class="status progress">In Progress</span>
+
+<button class="complete-task">Mark Complete</button>
+
+</div>
+
+</article>
+
+
+<article class="large-task" data-status="pending">
+
+<div class="task-left">
+
+<div class="task-icon">📊</div>
+
+<div>
+
+<h3>Prepare Project Report</h3>
+
+<p>
+Prepare documentation for the monthly project.
+</p>
+
+<small>Assigned by: Project Manager · Due Tomorrow</small>
+
+</div>
+
+</div>
+
+<div class="task-right">
+
+<span class="priority medium">Medium</span>
+
+<span class="status pending">Pending</span>
+
+<button class="complete-task">Mark Complete</button>
+
+</div>
+
+</article>
+
+
+<article class="large-task" data-status="completed">
+
+<div class="task-left">
+
+<div class="task-icon">👥</div>
+
+<div>
+
+<h3>Team Meeting</h3>
+
+<p>
+Discuss project progress and upcoming deadlines.
+</p>
+
+<small>Completed Today</small>
+
+</div>
+
+</div>
+
+<div class="task-right">
+
+<span class="priority low">Low</span>
+
+<span class="status completed">Completed</span>
+
+</div>
+
+</article>
+
+
+<article class="large-task" data-status="pending">
+
+<div class="task-left">
+
+<div class="task-icon">🎨</div>
+
+<div>
+
+<h3>UI Design Review</h3>
+
+<p>
+Review the latest interface designs.
+</p>
+
+<small>Assigned by: UI Lead · Due Friday</small>
+
+</div>
+
+</div>
+
+<div class="task-right">
+
+<span class="priority medium">Medium</span>
+
+<span class="status pending">Pending</span>
+
+<button class="complete-task">Mark Complete</button>
+
+</div>
+
+</article>
+
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div>
+            <a href="index.html" class="logo footer-logo">
+                <span class="logo-icon">C</span>
+                CrewDesk
+            </a>
+
+            <p>
+                Manage your workplace. Empower your crew.
+            </p>
+        </div>
+
+        <div>
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h4>Workplace</h4>
+            <a href="tasks.html">Tasks</a>
+            <a href="attendance.html">Attendance</a>
+            <a href="announcements.html">Announcements</a>
+            <a href="profile.html">Profile</a>
+        </div>
+
+        <div>
+            <h4>Contact</h4>
+            <p>📧 support@crewdesk.com</p>
+            <p>📞 +91 98765 43210</p>
+            <p>📍 Bhubaneswar, India</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 CrewDesk. All rights reserved.</p>
+        <p>Privacy Policy · Terms & Conditions</p>
+    </div>
+
+</footer>
+
+<script src="/Project/js/script.js"></script>
+
+</body>
+</html>

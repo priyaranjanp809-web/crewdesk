@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dashboard | CrewDesk</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/Project/CSS/style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<nav class="navbar container">
+
+<a href="index.html" class="logo">
+<span class="logo-icon">C</span>
+CrewDesk
+</a>
+
+<button class="menu-toggle" id="menuToggle">☰</button>
+
+<ul class="nav-links" id="navLinks">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="dashboard.html" class="active">Dashboard</a></li>
+<li><a href="tasks.html">Tasks</a></li>
+<li><a href="attendance.html">Attendance</a></li>
+<li><a href="announcements.html">Announcements</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<div class="nav-buttons">
+<a href="profile.html" class="profile-mini">A</a>
+</div>
+
+<button><a href="login.html" class="logout-btn">Logout</a></button>
+</nav>
+
+</header>
+
+
+<main>
+
+<section class="dashboard-page">
+
+<div class="container">
+
+<div class="dashboard-heading">
+
+<div>
+<span class="badge">Employee Dashboard</span>
+
+<h1>WELCOME 👋</h1>
+
+<p>Here's what's happening with your work today.</p>
+</div>
+
+<div class="date-box">
+📅 <span id="currentDate"></span>
+</div>
+
+</div>
+
+
+<div class="stats-grid">
+
+<div class="stat-card pink-card">
+<div class="stat-icon">📋</div>
+<div>
+<span>Total Tasks</span>
+<strong>12</strong>
+</div>
+</div>
+
+
+<div class="stat-card blue-card">
+<div class="stat-icon">🗓️</div>
+<div>
+<span>Attendance</span>
+<strong>92%</strong>
+</div>
+</div>
+
+
+<div class="stat-card green-card">
+<div class="stat-icon">✓</div>
+<div>
+<span>Completed</span>
+<strong>8</strong>
+</div>
+</div>
+
+
+<div class="stat-card purple-card">
+<div class="stat-icon">🌴</div>
+<div>
+<span>Leave Days</span>
+<strong>2</strong>
+</div>
+</div>
+
+</div>
+
+
+<div class="dashboard-grid">
+
+<div class="dashboard-panel">
+
+<div class="panel-heading">
+<h2>Today's Tasks</h2>
+<a href="tasks.html">View All →</a>
+</div>
+
+
+<div class="task-item">
+
+<div class="task-icon">💻</div>
+
+<div class="task-info">
+<strong>Website Development</strong>
+<span>Due Today · High Priority</span>
+</div>
+
+<span class="status progress">In Progress</span>
+
+</div>
+
+
+<div class="task-item">
+
+<div class="task-icon">📊</div>
+
+<div class="task-info">
+<strong>Prepare Project Report</strong>
+<span>Due Tomorrow · Medium Priority</span>
+</div>
+
+<span class="status pending">Pending</span>
+
+</div>
+
+
+<div class="task-item">
+
+<div class="task-icon">👥</div>
+
+<div class="task-info">
+<strong>Team Meeting</strong>
+<span>Completed Today</span>
+</div>
+
+<span class="status completed">Completed</span>
+
+</div>
+
+</div>
+
+
+<div class="dashboard-panel">
+
+<div class="panel-heading">
+<h2>Announcements</h2>
+<a href="announcements.html">View All →</a>
+</div>
+
+
+<div class="announcement-mini">
+<span>🎉</span>
+
+<div>
+<strong>Annual Team Meet</strong>
+<p>Tomorrow · 3:00 PM</p>
+</div>
+
+</div>
+
+
+<div class="announcement-mini">
+<span>📌</span>
+
+<div>
+<strong>New Attendance Policy</strong>
+<p>Updated recently</p>
+</div>
+
+</div>
+
+
+<div class="announcement-mini">
+<span>🎂</span>
+
+<div>
+<strong>Team Birthdays</strong>
+<p>2 birthdays this week</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="dashboard-panel attendance-overview">
+
+<div class="panel-heading">
+<h2>Attendance Overview</h2>
+<a href="attendance.html">Details →</a>
+</div>
+
+<div class="attendance-progress">
+
+<div class="attendance-circle">
+<strong>92%</strong>
+<span>Present</span>
+</div>
+
+<div class="attendance-details">
+
+<div>
+<span>Present</span>
+<strong>18 days</strong>
+</div>
+
+<div>
+<span>Leave</span>
+<strong>2 days</strong>
+</div>
+
+<div>
+<span>Absent</span>
+<strong>1 day</strong>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+<div class="container footer-grid">
+
+<div>
+<a href="index.html" class="logo footer-logo">
+<span class="logo-icon">C</span>
+CrewDesk
+</a>
+
+<p>Manage your workplace. Empower your crew.</p>
+</div>
+
+<div>
+<h4>Quick Links</h4>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</div>
+
+<div>
+<h4>Workplace</h4>
+<a href="tasks.html">Tasks</a>
+<a href="attendance.html">Attendance</a>
+<a href="announcements.html">Announcements</a>
+</div>
+
+<div>
+<h4>Account</h4>
+<a href="profile.html">Profile</a>
+<a href="login.html">Logout</a>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>© 2026 CrewDesk. All rights reserved.</p>
+</div>
+
+
+</footer>
+
+<script src="/Project/js/script.js"></script>
+
+</body>
+</html>
